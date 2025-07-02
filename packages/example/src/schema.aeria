@@ -1,0 +1,14 @@
+collection Person {
+  properties {
+    name str
+    sex enum @values(["male", "female"])
+    age num
+  }
+  functions {
+    get
+    getAll
+    insert
+    remove
+  }
+}
+

@@ -1,0 +1,24 @@
+collection MailjetEmail {
+  required {
+    subject
+    content
+    sender_address
+    receiver_address
+  }
+  properties {
+    status enum @values([
+      "queued",
+      "failed"
+    ])
+    subject str
+    content str
+    sender_address str
+    receiver_address str
+  }
+  functions {
+    get
+    getAll
+    send
+  }
+}
+

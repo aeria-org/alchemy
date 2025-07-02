@@ -1,0 +1,28 @@
+{
+  "name": "@aeria-alchemy/mailjet",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo skipping",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "build": "aeria -c",
+    "prepublishOnly": "pnpm build"
+  },
+  "files": [
+    ".aeria/out",
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aeria": "^0.0.322"
+  },
+  "devDependencies": {
+    "@aeriajs/types": "^0.0.135"
+  }
+}

@@ -1,0 +1,23 @@
+contract MailjetEmailSend {
+  payload {
+    properties {
+      subject str
+      content str
+      sender_address str
+      receiver_address str
+    }
+  }
+  response
+    | Error {
+      properties {
+        httpStatus int
+        code str
+      }
+    }
+    | Result {
+      properties {
+        message str
+      }
+    }
+}
+
