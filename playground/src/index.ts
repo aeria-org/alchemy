@@ -1,5 +1,5 @@
 import { init, createRouter } from 'aeria'
-import { person, personRouter } from '@albedo-toolkit/example'
+import { person, personRouter } from '@aeria-alchemy/example'
 
 export const collections = {
   person,

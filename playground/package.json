@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@aeriajs/cli": "^0.0.252",
-    "@albedo-toolkit/example": "link:../packages/example",
+    "@aeria-alchemy/example": "link:../packages/example",
     "aeria": "^0.0.322",
     "aeria-sdk": "^0.0.77"
   }
