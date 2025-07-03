@@ -1,0 +1,13 @@
+contract PersonHello {
+  payload {
+    properties {
+      name str
+    }
+  }
+  response {
+    properties {
+      message str
+    }
+  }
+}
+

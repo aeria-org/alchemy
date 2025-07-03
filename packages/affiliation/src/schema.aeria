@@ -1,0 +1,35 @@
+collection AffiliationUser extends aeria.user {
+  properties {
+    affiliated_users []AffiliationUser
+  }
+  functions {
+    get
+    getAll
+    insert
+    remove
+  }
+}
+
+collection AffiliationTransaction {
+  properties {
+    type enum @values([
+      "debit",
+      "credit",
+    ])
+    reason enum @values([
+      "withdraw",
+      "membership",
+      "sale",
+    ])
+    amount int
+    balance int
+    subject objectid
+    amount_per_membership int
+    amount_per_sale int
+  }
+  functions {
+    get
+    getAll
+  }
+}
+

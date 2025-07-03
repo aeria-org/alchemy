@@ -1,4 +1,4 @@
-# `@aeria-alchemy/mailjet`
+# `@aeria-alchemy/affiliation`
 
 This is an example component.
 
