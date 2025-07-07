@@ -20,6 +20,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aeria": "^0.0.324"
+    "aeria": "^0.0.325"
   }
 }
