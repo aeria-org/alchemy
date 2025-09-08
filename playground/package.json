@@ -25,7 +25,7 @@
   "dependencies": {
     "@aeria-alchemy/example": "link:../packages/example",
     "@aeriajs/cli": "^0.0.255",
-    "aeria": "^0.0.342",
+    "aeria": "^0.0.344",
     "aeria-sdk": "^0.0.216"
   }
 }
