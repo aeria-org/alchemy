@@ -10,7 +10,7 @@
     "@changesets/cli": "^2.29.8",
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-config-aeria": "^0.0.31",
     "husky": "^9.0.11",
     "typescript": "^5.4.5"
