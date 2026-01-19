@@ -23,6 +23,6 @@
     "aeria": "^0.0.348"
   },
   "devDependencies": {
-    "@aeriajs/types": "^0.0.138"
+    "@aeriajs/types": "^0.0.139"
   }
 }
