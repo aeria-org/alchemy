@@ -9,7 +9,7 @@
     "@aeriajs/cli": "^0.0.255",
     "@changesets/cli": "^2.30.0",
     "@commitlint/cli": "^20.4.3",
-    "@commitlint/config-conventional": "^20.4.2",
+    "@commitlint/config-conventional": "^20.4.3",
     "eslint": "^9.39.2",
     "eslint-config-aeria": "^0.0.31",
     "husky": "^9.0.11",
