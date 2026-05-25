@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aeria": "^0.0.359"
+    "aeria": "^0.0.360"
   },
   "devDependencies": {
     "@aeriajs/types": "^0.0.144"
