@@ -12,8 +12,8 @@ importers:
         specifier: ^0.0.255
         version: 0.0.255(@aeriajs/builtins@0.0.277(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/core@0.0.277)(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(@aeriajs/validation@0.0.178(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(mongodb@6.21.0)))(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/compiler@0.0.62(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/core@0.0.277(@aeriajs/builtins@0.0.277)(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/http@0.0.193(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(@aeriajs/validation@0.0.178(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(mongodb@6.21.0))(mongodb@6.21.0))(@aeriajs/security@0.0.277)(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(@aeriajs/validation@0.0.178(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(mongodb@6.21.0)))(@aeriajs/entrypoint@0.0.163(@aeriajs/common@0.0.157(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))(bson@6.10.4))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1)))(@aeriajs/types@0.0.144(@phosphor-icons/core@2.1.1))
       '@changesets/cli':
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.1
+        version: 3.0.1
       '@commitlint/cli':
         specifier: ^21.2.2
         version: 21.2.2(@types/node@25.0.6)(conventional-commits-parser@7.1.2)(typescript@5.8.3)
@@ -191,8 +191,8 @@ packages:
     resolution: {integrity: sha512-3Dst2Ime2Op5nd4XmWJLPIgp11ZFqJqSkVug9izK6TDcIV4YlhPS4ECbEVR+eGI0bk0r1ItogD4j2Oli87bJrA==}
     engines: {node: ^22.11 || ^24 || >=26}
 
-  '@changesets/cli@3.0.0':
-    resolution: {integrity: sha512-V7Gm+GP5OT3mJinMI2YcJD/JyO/a4WChnaMCCzTRhWHgu1zhtsyY7zCjP6n5W6zsgSjJKs+yPmvtREvE0F2g8A==}
+  '@changesets/cli@3.0.1':
+    resolution: {integrity: sha512-3IVpRSgiKDj2aRbBHKtWTXSRH2/iR3bWxau9iQUoEsZjDhRIj9nhl90k7FWMxZAJvLgJBbgMq8+qS0xQsenYsQ==}
     engines: {node: ^22.11 || ^24 || >=26, npm: '>=10.9.0', pnpm: '>=10.0.0', yarn: '>=4.5.2'}
     hasBin: true
 
@@ -236,8 +236,8 @@ packages:
     resolution: {integrity: sha512-c5GoiQyt3pxiXjrWSNoP8/GRf4kG+VnKzovx1OQM8dYYALlSwgedmkPmJ+ZqGxqwg9D3Bkj85Uo4KLd5BN3A0w==}
     engines: {node: ^22.11 || ^24 || >=26}
 
-  '@changesets/write@1.0.0':
-    resolution: {integrity: sha512-xCK3/4C7Z7muQB/wguE6HcbjtY9iOtaK9orZKE+7xi573cMGD8rLZz7qlo6IvK7s+SIUIKajzj1l+F1QuP97tw==}
+  '@changesets/write@1.0.1':
+    resolution: {integrity: sha512-q/ThtP9gcnEP6xlv7LrY26C2mHqdGBti/MmOVngt/M/oIGYkssmQGxPK9WzBNt2juVcH/vml2WQ+ra8LXYOTaA==}
     engines: {node: ^22.11 || ^24 || >=26}
 
   '@clack/core@1.4.3':
@@ -555,8 +555,8 @@ packages:
     resolution: {integrity: sha512-6QEf6yqFbETdwGITKq57aYoPfX/3K8XFNwsAlx0C1M7o8cb79sv1M3w+tWuWvIcSbNqrLF7OD7YpZMVVz335hQ==}
     engines: {node: '>=20.0.0'}
 
-  '@mongodb-js/saslprep@1.4.13':
-    resolution: {integrity: sha512-E3Sv4eCYAlKYUTx8S3ioQcDUscOif+8zZ5OnW1IzJ+Tt+EO+ke8mn+Y3FX6N1H79picwbdOavVOb1jPi2EOyrg==}
+  '@mongodb-js/saslprep@1.5.0':
+    resolution: {integrity: sha512-Hk1SKJCMcCos38+vqDnZzlIo4XRj9yCGzYkjB4LcqpeXRIYfia1UWTz+VrueLxoU+uSRJzgkufxoRZg8gi52YA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -936,6 +936,7 @@ packages:
   eslint@9.39.2:
     resolution: {integrity: sha512-LEyamqS7W5HB3ujJyvi0HQK/dtVINZvd5mAAp9eT5S/ujByGjiZLCzPcHVzuXbpJDJF/cxwHlfceVUDZ2lnSTw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1077,8 +1078,8 @@ packages:
     resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
     engines: {node: '>= 14'}
 
-  human-id@4.2.0:
-    resolution: {integrity: sha512-K3GbkIWqyvvlpfhBPlbEvD97TtqBpAYA4kt+cn2lD2x2HuohzZCibcA2nOlnJT6exqvJLggoB5nv2dNf192nEA==}
+  human-id@4.2.1:
+    resolution: {integrity: sha512-zPGsiS+dWoTZtZ4AtpA9Y+BdSFSNWvnouNlWNoUFyAM6xHOHmdCvqO3k8AIbdamCOv4gUFUVNPf6rJFfc4UiJw==}
     hasBin: true
 
   husky@9.1.7:
@@ -1682,7 +1683,7 @@ snapshots:
     dependencies:
       '@changesets/types': 7.0.0
 
-  '@changesets/cli@3.0.0':
+  '@changesets/cli@3.0.1':
     dependencies:
       '@changesets/apply-release-plan': 8.0.0
       '@changesets/assemble-release-plan': 7.0.0
@@ -1695,7 +1696,7 @@ snapshots:
       '@changesets/read': 1.0.0
       '@changesets/should-skip-package': 1.0.0
       '@changesets/types': 7.0.0
-      '@changesets/write': 1.0.0
+      '@changesets/write': 1.0.1
       '@clack/prompts': 1.7.0
       '@manypkg/get-packages': 3.1.0
       '@pnpm/deps.graph-sequencer': 1100.0.1
@@ -1757,11 +1758,11 @@ snapshots:
 
   '@changesets/types@7.0.0': {}
 
-  '@changesets/write@1.0.0':
+  '@changesets/write@1.0.1':
     dependencies:
       '@changesets/format': 0.1.2
       '@changesets/types': 7.0.0
-      human-id: 4.2.0
+      human-id: 4.2.1
 
   '@clack/core@1.4.3':
     dependencies:
@@ -2046,7 +2047,7 @@ snapshots:
       tinyglobby: 0.2.17
       yaml: 2.9.0
 
-  '@mongodb-js/saslprep@1.4.13':
+  '@mongodb-js/saslprep@1.5.0':
     dependencies:
       sparse-bitfield: 3.0.3
 
@@ -2614,7 +2615,7 @@ snapshots:
       - supports-color
     optional: true
 
-  human-id@4.2.0: {}
+  human-id@4.2.1: {}
 
   husky@9.1.7: {}
 
@@ -2817,7 +2818,7 @@ snapshots:
 
   mongodb@6.21.0:
     dependencies:
-      '@mongodb-js/saslprep': 1.4.13
+      '@mongodb-js/saslprep': 1.5.0
       bson: 6.10.4
       mongodb-connection-string-url: 3.0.2
 
